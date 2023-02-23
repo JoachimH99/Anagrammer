@@ -7,5 +7,9 @@ Programmet tar ingen argumenter og kjøres med følgende kall:
  ```
  python3 anagram.py
  ```
+Testprogrammet kjøres med følgende kall:
+ ```
+ python3 test_anagram.py
+ ```
 ## Dependencies
 - pyarrow

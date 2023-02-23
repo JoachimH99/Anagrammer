@@ -71,8 +71,9 @@ def print_resultat(resultat):
         print("Ingen anagrammer funnet")
 
     else:
+        print("Anagrammer:")
+        
         teller = 1
-
         for sett in resultat:
             liste = list(sett)
             ut = f'{teller}: {liste[0]}'
@@ -93,4 +94,5 @@ def main():
     print_resultat(resultat)
 
 
-main()
+if __name__ == '__main__':
+    main()

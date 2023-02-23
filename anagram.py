@@ -1,6 +1,7 @@
 import pyarrow.parquet as pq
 from collections import defaultdict
 
+# KJOERETIDSKOMPLEKSITET:
 # Dersom vi antar at lengden paa navnene i input ikke vokser, vil
 # kjoeretidskompleksiteten av finn_anagrammer() vaere i O(n)
 
